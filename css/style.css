@@ -74,13 +74,12 @@ nav {
             }
         }
 
-        #open:checked {
-            +ul {
+        #open:checked + ul {
                 translate: 0;
                 box-shadow: -5px 0 10px gray;
 
             }
-        }
+        
 
     }
 
